@@ -1,1 +1,1 @@
-web: yarn start
+web: parcel serve src/index.html
