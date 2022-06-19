@@ -4,7 +4,7 @@
   "description": "snake",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "parcel serve src/index.html",
+    "start": "parcel serve src/index.html",
     "build": "rimraf ./dist && parcel build src/index.html --public-url .",
     "lint": "eslint --ext .js,.ts ./src",
     "gh-pages": "gh-pages -d dist -t"
